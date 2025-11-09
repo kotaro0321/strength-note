@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Strength Note 💪
 
-## Getting Started
+筋トレ記録アプリ（Next.js 14 + Tailwind CSS + LocalStorage）
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📝 概要
+トレーニング内容（種目・重量・回数・セット数）を記録し、
+種目ごとのボリューム推移をグラフで可視化できるアプリです。  
+ブラウザだけで動作し、データはLocalStorageに保存されます。
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🚀 主な機能
+- 日付ごとのトレーニング記録（Today画面）
+- 種目カタログからの選択（Select画面）
+- ボリューム推移グラフ表示（Log画面）
+- 自動保存（LocalStorage対応）
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🧠 開発の目的
+筋トレ記録を「もっとシンプルで直感的に」管理したいという発想からスタート。  
+完全初心者としてコードを理解しながら一から構築しました。  
+「動かす」だけでなく、UIやデータ構造も自分で考えた初めてのアプリです。
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## ⚙️ 技術構成
+- **Next.js 14 (App Router)**
+- **React / TypeScript**
+- **Tailwind CSS**
+- **LocalStorage API**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📈 今後のアップデート予定
+- Firebase連携によるログイン・クラウド保存
+- 種目ごとの自己ベスト管理
+- 週・月ごとのトレーニング量分析
+- UIデザインの強化（グラフ・テーマカラーなど）
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 👤 制作
+個人開発（2025）  
+このアプリは学習・ポートフォリオ目的で制作されています。
